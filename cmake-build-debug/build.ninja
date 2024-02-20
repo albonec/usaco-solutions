@@ -49,17 +49,29 @@ cmake_ninja_workdir = F$:/General_Storage/usaco-solutions/cmake-build-debug/
 
 build cmake_object_order_depends_target_usaco_solutions: phony || CMakeFiles/usaco_solutions.dir
 
-build CMakeFiles/usaco_solutions.dir/main.cpp.obj: CXX_COMPILER__usaco_solutions_unscanned_Debug F$:/General_Storage/usaco-solutions/main.cpp || cmake_object_order_depends_target_usaco_solutions
-  DEP_FILE = CMakeFiles\usaco_solutions.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\usaco_solutions.dir
-  OBJECT_FILE_DIR = CMakeFiles\usaco_solutions.dir
-
 build CMakeFiles/usaco_solutions.dir/Practice/CandyCaneFeast.cpp.obj: CXX_COMPILER__usaco_solutions_unscanned_Debug F$:/General_Storage/usaco-solutions/Practice/CandyCaneFeast.cpp || cmake_object_order_depends_target_usaco_solutions
   DEP_FILE = CMakeFiles\usaco_solutions.dir\Practice\CandyCaneFeast.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\usaco_solutions.dir
   OBJECT_FILE_DIR = CMakeFiles\usaco_solutions.dir\Practice
+
+build CMakeFiles/usaco_solutions.dir/Contest/Feb_2024/PalindromeGame.cpp.obj: CXX_COMPILER__usaco_solutions_unscanned_Debug F$:/General_Storage/usaco-solutions/Contest/Feb$ 2024/PalindromeGame.cpp || cmake_object_order_depends_target_usaco_solutions
+  DEP_FILE = CMakeFiles\usaco_solutions.dir\Contest\Feb_2024\PalindromeGame.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\usaco_solutions.dir
+  OBJECT_FILE_DIR = CMakeFiles\usaco_solutions.dir\Contest\Feb_2024
+
+build CMakeFiles/usaco_solutions.dir/Contest/Feb_2024/MilkExchange.cpp.obj: CXX_COMPILER__usaco_solutions_unscanned_Debug F$:/General_Storage/usaco-solutions/Contest/Feb$ 2024/MilkExchange.cpp || cmake_object_order_depends_target_usaco_solutions
+  DEP_FILE = CMakeFiles\usaco_solutions.dir\Contest\Feb_2024\MilkExchange.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\usaco_solutions.dir
+  OBJECT_FILE_DIR = CMakeFiles\usaco_solutions.dir\Contest\Feb_2024
+
+build CMakeFiles/usaco_solutions.dir/Contest/Feb_2024/MaximizingProductivity.cpp.obj: CXX_COMPILER__usaco_solutions_unscanned_Debug F$:/General_Storage/usaco-solutions/Contest/Feb$ 2024/MaximizingProductivity.cpp || cmake_object_order_depends_target_usaco_solutions
+  DEP_FILE = CMakeFiles\usaco_solutions.dir\Contest\Feb_2024\MaximizingProductivity.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\usaco_solutions.dir
+  OBJECT_FILE_DIR = CMakeFiles\usaco_solutions.dir\Contest\Feb_2024
 
 
 # =============================================================================
@@ -69,7 +81,7 @@ build CMakeFiles/usaco_solutions.dir/Practice/CandyCaneFeast.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable usaco_solutions.exe
 
-build usaco_solutions.exe: CXX_EXECUTABLE_LINKER__usaco_solutions_Debug CMakeFiles/usaco_solutions.dir/main.cpp.obj CMakeFiles/usaco_solutions.dir/Practice/CandyCaneFeast.cpp.obj
+build usaco_solutions.exe: CXX_EXECUTABLE_LINKER__usaco_solutions_Debug CMakeFiles/usaco_solutions.dir/Practice/CandyCaneFeast.cpp.obj CMakeFiles/usaco_solutions.dir/Contest/Feb_2024/PalindromeGame.cpp.obj CMakeFiles/usaco_solutions.dir/Contest/Feb_2024/MilkExchange.cpp.obj CMakeFiles/usaco_solutions.dir/Contest/Feb_2024/MaximizingProductivity.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\usaco_solutions.dir
